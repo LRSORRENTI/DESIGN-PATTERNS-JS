@@ -1,0 +1,21 @@
+========================
+SOLID DESIGN PRINCIPLES
+========================
+
+SOLID design principles were introduced 
+by Robert C. Martin, these principles 
+are often referenced in modern design 
+pattern literature 
+
+========================================
+
+===============================
+SINGLE REPONSIBILITY PRINCIPLE
+===============================
+
+This resposibility conveys that a class 
+should have a single primary resposibilit, 
+and as a consequence should have only one 
+reason to change, in other words it's a bad 
+idea to add more than one resposibility to 
+a class 
