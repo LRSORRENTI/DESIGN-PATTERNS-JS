@@ -1,0 +1,109 @@
+=============
+INTRODUCTION
+=============
+
+Design patterns are common architectural 
+approaches that have been observed in 
+software engineering and have been replicated 
+in many different programming languages 
+
+In this course we'll go over SOLID design principle, 
+these are principles of OOP and are often referenced 
+in design pattern literature, it's important to 
+introduce this before getting into the course 
+
+Then the course will split into three parts, 
+CREATIONAL, STRUCTURAL, and BEHAVIORAL patterns
+
+
+=================================================
+
+In the CREATIONAL patterns section we'll learn: 
+
+-- Builder 
+
+-- Factories (Abstract factory, Factory method)
+
+-- Prototype 
+
+-- Singleton
+
+==================================================
+
+In the CREATIONAL patterns section we'll learn: 
+
+-- Adapter
+
+-- Bridge 
+
+-- Composite 
+
+-- Decorator 
+
+-- Façade 
+
+-- Flyweight 
+
+-- Proxy
+
+====================================================
+
+In the BEHAVIORAL patterns section we'll learn: 
+
+-- Chain of responsibility 
+
+-- Command 
+
+-- Interpreter 
+
+-- Iterator
+
+-- Mediator 
+
+-- Mememto
+
+-- Observer 
+
+-- State 
+
+-- Strategy 
+
+-- Template Method 
+
+-- Visitor 
+
+=====================================================
+
+This course will be hands on, 100% practical, we'll 
+be using JavaScript and we'll execute them with node.js 
+
+There will be exercises at the end of each section 
+to test what you've learned
+
+We will use NPM for certain node packages that 
+can help illustrate concepts and make learning certain 
+patterns easier 
+
+========================================================
+
+TOOLS OF THE TRADE 
+
+====================
+
+This course uses the latest ECMAScript features 
+like classes and inheritance, so we won't be using 
+functions to create objects, instead we'll use 
+classes and constructors 
+
+We'll use methods, static methods, default / rest 
+params
+
+Getters and setters, often referred to as properties 
+in other programming languages 
+
+Arrow functions aka lamda functions 
+
+Template string interpolation
+
+Demos will be executed in node, or using Jasmine 
+unit tests 
