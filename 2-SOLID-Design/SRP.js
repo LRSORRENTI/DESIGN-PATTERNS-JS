@@ -135,3 +135,11 @@ p.saveToFile(j, filename)
 // it, like if we have a complicated piece of code, 
 // we must try to split it up to separate components
 // to make everything easier to manage
+
+// And after running node SRP.js a new txt file inside of this 
+// directory is created, test.txt, which contains 
+// two entries: 
+
+// 1: I had a tough day today
+// 2: But I helped someone in need
+
