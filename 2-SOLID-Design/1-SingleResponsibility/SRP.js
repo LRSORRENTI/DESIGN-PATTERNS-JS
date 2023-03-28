@@ -100,6 +100,11 @@ class PersistenceManager {
         // look across ten different files, you 
         // just need to look at the persistence 
         // manager
+        const preProcessedJournal = this.preprocess(journal);
+        return preProcessedJournal;
+    }
+    preprocess(journal){
+
     }
 saveToFile(journal, filename){
 fs.writeFileSync(filename, journal.toString());
@@ -110,8 +115,8 @@ fs.writeFileSync(filename, journal.toString());
 // new persistence manager 
 
 let p = new PersistenceManager();
-let filename = 'c:/temp/journal.txt'
-p.saveToFile(journal, filename)
+let filename = 'C:/Users/lrsor/Desktop/PROGRAMMING/DMITRI-DESIGN-PATTERNS/DESIGN-PATTERNS-JS/2-SOLID-Design/test.txt'
+p.saveToFile(j, filename)
 
 // The main takeaway here is that it was better to 
 // remove the persistence manager from the 
@@ -130,3 +135,11 @@ p.saveToFile(journal, filename)
 // it, like if we have a complicated piece of code, 
 // we must try to split it up to separate components
 // to make everything easier to manage
+
+// And after running node SRP.js a new txt file inside of this 
+// directory is created, test.txt, which contains 
+// two entries: 
+
+// 1: I had a tough day today
+// 2: But I helped someone in need
+
