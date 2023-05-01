@@ -1,5 +1,4 @@
 # DESIGN-PATTERNS-JS
-## Dmitri Nesteruk's course on design patterns
 ### Course Overview
 
 This course provides a comprehensive overview of Design Patterns in JavaScript from a practical perspective. This course in particular covers patterns with the use of:
