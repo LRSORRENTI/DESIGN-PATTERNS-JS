@@ -37,20 +37,30 @@ Principle, we can create more flexible
 
 
 class Rectangle {
+    // Our main class of Rectangle,
+    // below is a constructor func 
+    // to set the width and height 
+    // of each instance of Rectangle 
+    // when it's created
     constructor(width, height){
         this.width = width;
         this.height = height;
     }
 
-
+// Method to set the width property
+// of a Rectangle object
 setWidth(width){
     this.width = width;
 }
+
+// Method to set the height property 
+//of a Rectangle object
 
 setHeight(height){
     this.height = height;
 }
 
+    // Method to calculate the area of a Rectangle object
 area(){
     return this.width * this.height
 }
@@ -58,16 +68,41 @@ area(){
 }
 
 class Square extends Rectangle {
+    // Our Square class extends our Rectangle class
+    // so it inherits its properties and methods
     setWidth(width){
-        // So in our sqaure, we set 
-        // both the width and the height 
-        // to be exactly the same
+        // This method sets the width of a square object
+        // but also updates the height property to be the same
         this.width = width;
         this.height = height;
     }
   
     setHeight(height){
+        // This method sets the height of a square object
+        // but also updates the width property to be the same
         this.height = height;
         this.width = width;
+        // Every square must have equal height and width
+        // otherwise it's not a true sqaure
     }
 }
+
+
+function increaseRectWidth(rect){
+    // This function takes a Rectangle object 
+    //as an argument and increases its
+    // width by 1 using the setWidth method
+    rect.setWidth(rect.width + 1);
+}
+
+const rect1 = new Rectangle(10, 2);
+const rect2 = new Rectangle(5, 5);
+
+console.log(rect1.area());// 20
+console.log(rect2.area()); // 25
+
+
+
+increaseRectWidth(rect1)
+
+console.log(rect1) // Rectangle {width: 11, height: 3}
