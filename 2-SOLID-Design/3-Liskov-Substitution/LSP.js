@@ -32,6 +32,42 @@ Principle, we can create more flexible
   adding new subtypes, without having 
   to rewrite large portions of the 
   existing code.
-
-
 */
+
+
+
+class Rectangle {
+    constructor(width, height){
+        this.width = width;
+        this.height = height;
+    }
+
+
+setWidth(width){
+    this.width = width;
+}
+
+setHeight(height){
+    this.height = height;
+}
+
+area(){
+    return this.width * this.height
+}
+
+}
+
+class Square extends Rectangle {
+    setWidth(width){
+        // So in our sqaure, we set 
+        // both the width and the height 
+        // to be exactly the same
+        this.width = width;
+        this.height = height;
+    }
+  
+    setHeight(height){
+        this.height = height;
+        this.width = width;
+    }
+}
