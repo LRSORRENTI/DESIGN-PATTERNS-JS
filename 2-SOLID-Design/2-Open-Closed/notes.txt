@@ -1,0 +1,7 @@
+=====================
+OPEN-CLOSED PRINCIPLE
+=====================
+
+The 'O' in SOLID stands for OPEN-CLOSED 
+PRINCIPLE 
+
