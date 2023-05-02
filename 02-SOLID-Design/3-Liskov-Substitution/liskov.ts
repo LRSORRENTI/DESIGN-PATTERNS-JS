@@ -103,3 +103,11 @@ abstract class Employee {
       this.Name = name;
     }
   }
+
+  class PermanentEmployee extends Employee {
+
+  }
+
+  class TempEmployee extends Employee {
+    
+  }

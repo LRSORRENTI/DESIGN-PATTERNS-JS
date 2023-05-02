@@ -1,6 +1,10 @@
 # DESIGN-PATTERNS-JS
+
 ## Dmitri Nesteruk's course on design patterns
+
 ### Course Overview
+
+### Side note: I'm following the structure of Dmitri's course, but using different resources for each section, I'm not responding well to Dmitri's lecture style
 
 This course provides a comprehensive overview of Design Patterns in JavaScript from a practical perspective. This course in particular covers patterns with the use of:
 
@@ -40,7 +44,7 @@ This course is for JavaScript developers who want to see not just textbook examp
 
 Presentation Style
 
-This course is presented as a (very large) series of live demonstrations being done in JetBrains WebStorm and presented using the Kinetica rendering engine. Kinetica removes the visual clutter of the IDE, making you focus on code, which is rendered perfectly, whether you are watching the course on a big screen or a mobile phone. 
+This course is presented as a (very large) series of live demonstrations being done in JetBrains WebStorm and presented using the Kinetica rendering engine. Kinetica removes the visual clutter of the IDE, making you focus on code, which is rendered perfectly, whether you are watching the course on a big screen or a mobile phone.
 
 Most demos are single-file, so you can download the file attached to the lesson and run it in WebStorm, Atom or another IDE of your choice (or just run them from the command-line).
 
