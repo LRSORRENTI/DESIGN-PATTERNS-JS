@@ -1,7 +1,5 @@
 # DESIGN-PATTERNS-JS
 
-## Dmitri Nesteruk's course on design patterns
-
 ### Course Overview
 
 ### Side note: I'm following the structure of Dmitri's course, but using different resources for each section, I'm not responding well to Dmitri's lecture style
