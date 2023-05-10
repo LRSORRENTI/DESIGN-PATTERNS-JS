@@ -1,0 +1,35 @@
+===================
+CREATIONAL PATTERN: 
+
+BUILDER
+
+===================
+
+The builder pattern is a creational design pattern 
+that allows the building of complex objects step by 
+step by separating the construction of an object from 
+it's representation 
+
+It provides a way to create an object by initializing 
+it's properties in a step-by-step manner rather than 
+using a giant constructor function 
+
+This pattern is commonly used in software engineering 
+when there's a need to create objects that have 
+multiple properties that need to be set in a 
+specific order 
+
+The builder pattern is very useful when there are 
+many possible optional properties and when the object 
+being created is complex 
+
+````````
+BENEFITS
+
+````````
+
+1. Flexibility: The builder pattern facilitates the 
+   ability to create objects in a flexible way, allowing 
+   configuration and modification of properties step-by-step 
+
+2. 
