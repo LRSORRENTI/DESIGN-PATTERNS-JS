@@ -32,4 +32,28 @@ BENEFITS
    ability to create objects in a flexible way, allowing 
    configuration and modification of properties step-by-step 
 
-2. 
+2. Encapsulation: By separating the construction of the 
+   object from it's representation, the builder pattern
+   provides a way encapsulate the creation process, 
+   making easier to maintain code 
+
+3. Consistency: Using the builder pattern ensures that the 
+   object is created consistently, regardless of the 
+   order of the properties being set  
+
+
+``````````
+Drawbacks
+
+``````````
+
+Some potential drawbacks include: 
+
+1. Increased complexity: Depending on the use-case, 
+   implementing the builder pattern can increase 
+   complexity to your code, as it involves creating 
+   multiple classes to represent the object being built
+
+2. Performance: This pattern can result in slower performance
+   compared to other creational patterns because of the 
+   additional overhead of creating multiple objects
