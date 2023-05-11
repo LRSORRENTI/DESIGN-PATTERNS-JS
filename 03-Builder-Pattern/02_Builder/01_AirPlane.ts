@@ -136,6 +136,10 @@ changeClass(newClass: IAirLineTripOptions['class'] ){
 }
 
 const summerTrip = new AirlineTrip(
+  // above we define a variable, setting it with
+// the new keyword, which instantiates a new AirlineTrip
+// object and will save the below options to our 
+// summerTrip object 
        {from: 'MKE', 
          to: 'MIA',
          fromDate: new Date(),
