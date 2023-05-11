@@ -88,3 +88,14 @@ summerTrip.changeClass('business').
 // use change class twice if we wanted to, but the 
 // new airline trip summerTrip object now looks like:            
 console.log(summerTrip)
+/*
+AirlineTrip {
+  airlineOptions: {
+    from: 'CHI',
+    to: 'BZN',
+    fromDate: 2023-05-11T13:34:03.896Z,
+    toDate: 2023-09-25T05:00:00.000Z,
+    class: 'first'
+  }
+}
+*/

@@ -222,3 +222,37 @@ AirlineTrip {
   }
 }
 */
+
+/*
+
+This is a good example illustrating that we've 
+operated on this data, updated the data structure 
+of the object
+
+And it's easy for another developer to look and see what's 
+going on
+
+And if we wanted to make some interface values optional 
+we could do that:
+
+     fromDate?: Date;
+      toDate?: Date;
+      from: string;
+      to: string;
+      class: IAirlineTripFareClass
+
+  Now we wouldn't need to implement them up front
+  but we could with: 
+
+  summerTrip.changeClass('business').
+           changeFrom('CHI').
+           changeTo('BZN').
+           changeClass('first').
+           changeFromDate(new Date()).
+           changeToDate(new Date())
+
+
+*/
+
+// That is the builder pattern, using method chaining 
+// to illustrate the pattern
