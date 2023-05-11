@@ -1,0 +1,46 @@
+/*
+
+To preface this section, in JS and TS, we can use 
+method chaining is useful when we need to find a specfic 
+set of items in an array for example: 
+
+Let's say you have an array of objects 
+representing books, and you want to filter
+ the books based on certain criteria and 
+ then sort them by title. 
+ 
+ You could use method chaining to 
+ achieve this in a concise and readable way.
+
+const books = [
+  {title: 'The Catcher in the Rye', author: 'J.D. Salinger', year: 1951},
+  {title: 'To Kill a Mockingbird', author: 'Harper Lee', year: 1960},
+  {title: '1984', author: 'George Orwell', year: 1949},
+  {title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: 1925},
+  {title: 'One Hundred Years of Solitude', author: 'Gabriel García Márquez', year: 1967},
+  {title: 'Moby-Dick', author: 'Herman Melville', year: 1851},
+];
+
+const filteredBooks = books
+  .filter(book => book.year >= 1950)  // filter books published after 1950
+  .filter(book => book.author === 'J.D. Salinger')  // filter books by J.D. Salinger
+  .sort((a, b) => a.title.localeCompare(b.title));  // sort books by title
+
+console.log(filteredBooks);
+In this example, we're using the filter()
+ method twice to filter the books 
+ first by publication year and then 
+ by author, and then using the sort() 
+ method to sort the remaining books by title. 
+ 
+ By chaining these methods together,
+  we can achieve our desired result in a single, 
+  easy-to-read statement.
+
+This is just a simple example, 
+but in larger codebases with more c
+omplex data transformations, 
+method chaining can help make 
+code more concise, readable, and maintainable.
+
+*/
