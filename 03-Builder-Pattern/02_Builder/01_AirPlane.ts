@@ -102,15 +102,21 @@ class AirlineTrip {
     //  as well as for registering classes 
     //  and their properties with third-party libraries.
 
-  #airlineOptions: IAirLineTripOptions;
+  // #airlineOptions: IAirLineTripOptions;
   // the # above denotes a private field in TS,
   // you could alternatively use the private keyword 
   // but the # is concise
+
+  private airlineOptions: IAirLineTripOptions;
+
+  // side note, the above # wasn't working for me 
+  // or the instructor, it needs es2020 or higher 
+  // I think
     
 constructor(options: IAirLineTripOptions ){
    // our constructor will use the interface 
    // IAirLineTripOptions
-   this.#airlineOptions = options;
+   this.airlineOptions = options;
 }
 // Now to utilize and implement the builder 
 // pattern, we'll add some methods 
