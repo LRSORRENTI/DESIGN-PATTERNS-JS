@@ -110,7 +110,7 @@ class AirlineTrip {
   private airlineOptions: IAirLineTripOptions;
 
   // side note, the above # wasn't working for me 
-  // or the instructor, it needs es2020 or higher 
+  // for the constructor, it needs es2020 or higher 
   // I think
     
 constructor(options: IAirLineTripOptions ){
