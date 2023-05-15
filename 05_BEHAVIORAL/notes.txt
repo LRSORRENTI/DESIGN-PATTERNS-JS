@@ -1,0 +1,23 @@
+Behavioral Design Patterns:
+
+Chain of Responsibility: Allows an object to pass a request along a chain of potential handlers until it is handled.
+
+Command: Encapsulates a request as an object, allowing clients to parameterize clients with queues, requests, or operations.
+
+Interpreter: Defines a representation of a grammar and an interpreter to interpret sentences in the language.
+
+Iterator: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+Mediator: Defines an object that encapsulates the communication between a set of objects, promoting loose coupling.
+
+Memento: Captures and restores an object's internal state.
+
+Observer: Defines a one-to-many dependency between objects, where changes in one object notify and update others automatically.
+
+State: Allows an object to alter its behavior when its internal state changes.
+
+Strategy: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+
+Template Method: Defines the skeleton of an algorithm in a base class, allowing subclasses to redefine certain steps.
+
+Visitor: Separates an algorithm from the object structure on which it operates, allowing new operations to be added without modifying the objects.

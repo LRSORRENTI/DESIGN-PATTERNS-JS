@@ -1,0 +1,15 @@
+STRUCTURAL DESIGN PATTERNS: 
+
+Adapter: Converts the interface of a class into another interface that clients expect.
+
+Bridge: Separates an abstraction from its implementation so that they can vary independently.
+
+Composite: Composes objects into tree structures to represent part-whole hierarchies.
+
+Decorator: Dynamically adds responsibilities to objects by wrapping them.
+
+Façade: Provides a unified interface to a set of interfaces in a subsystem.
+
+Flyweight: Shares common state among multiple objects to conserve memory.
+
+Proxy: Provides a surrogate or placeholder for another object to control access to it.
