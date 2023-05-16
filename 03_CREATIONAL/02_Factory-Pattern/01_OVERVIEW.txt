@@ -5,7 +5,7 @@ FACTORY DESIGN PATTERN
 Factory Design Pattern in TypeScript
 -Theo Anderson YouTube
 
-Factory is a way to delegate instantioan of 
+Factory is a way to delegate instantiation of 
 objects into what's known as a Factory
 
 We're going to use TypeScript to showcase 
@@ -16,6 +16,6 @@ This organization factory will house a list of
 employees to implement an interface called 
 'iEmployee' 
 
-And this will showcase an apt example of the factory 
+This will showcase an apt example of the factory 
 pattern 
 
