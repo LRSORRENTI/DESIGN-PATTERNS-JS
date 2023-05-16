@@ -32,7 +32,29 @@ class MarketingManager implements iEmployee{
         return Department.Marketing;
     }
     getSalary(): number {
-        return 50000;
+        return 70000;
     }
     readonly name: string = "Bob Roberts"
+}
+
+class AccountingManager implements iEmployee{
+    getDepartment(): Department {
+        return Department.Accounting;
+    }
+    getSalary(): number {
+        70000
+    }
+    name: string = "Margaret Margaretson"
+}
+
+
+
+class JuniorDeveloper implements iEmployee{
+    getDepartment(): Department {
+        return Department.Engineering;
+    }
+    getSalary(): number {
+        return 30000
+    }
+    name: "Luke Sorrenti"
 }
