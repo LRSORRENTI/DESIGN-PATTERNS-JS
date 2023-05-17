@@ -1,15 +1,92 @@
-STRUCTURAL DESIGN PATTERNS: 
+================
+Adapter Pattern:
+================
 
-Adapter: Converts the interface of a class into another interface that clients expect.
+Description: Converts the
+ interface of a class into 
+ another interface that clients expect.
 
-Bridge: Separates an abstraction from its implementation so that they can vary independently.
+Benefits: Allows incompatible classes
+ to work together, promotes code 
+ reusability, and provides a way
+  to adapt legacy code.
 
-Composite: Composes objects into tree structures to represent part-whole hierarchies.
+===============
+Bridge Pattern:
+===============
 
-Decorator: Dynamically adds responsibilities to objects by wrapping them.
+Description: Separates an abstraction 
+from its implementation so that they can
+ vary independently.
 
-Façade: Provides a unified interface to a set of interfaces in a subsystem.
+Benefits: Decouples abstraction and 
+implementation, promotes flexibility 
+and extensibility, and allows for easier
+ system evolution.
 
-Flyweight: Shares common state among multiple objects to conserve memory.
+==================
+Composite Pattern:
+==================
 
-Proxy: Provides a surrogate or placeholder for another object to control access to it.
+Description: Composes objects into 
+tree structures to represent part-whole 
+hierarchies.
+
+Benefits: Simplifies the 
+handling of complex hierarchies, 
+allows treating individual and 
+composed objects uniformly, and 
+provides flexibility in object composition.
+
+==================
+Decorator Pattern:
+==================
+
+Description: Dynamically adds
+ responsibilities to objects by wrapping them.
+
+Benefits: Allows for flexible and dynamic
+ object behavior extension, promotes the
+  principle of open-closed design,
+   and avoids class explosion due to 
+   excessive subclassing.
+
+===============
+Facade Pattern:
+===============
+
+Description: Provides a unified interface
+ to a set of interfaces in a subsystem.
+
+Benefits: Simplifies the usage of complex
+ subsystems, provides a higher-level 
+ interface for clients, and reduces 
+ dependencies between clients and subsystems.
+
+==================
+Flyweight Pattern:
+==================
+
+Description: Shares common state among
+ multiple objects to conserve memory.
+
+Benefits: Reduces memory usage by sharing
+ data, improves performance by avoiding 
+ redundant object creation, and supports
+  large-scale systems with a large 
+  number of fine-grained objects.
+
+==============
+Proxy Pattern:
+==============
+
+Description: Provides a surrogate or
+ placeholder for another object to control 
+ access to it.
+
+Benefits: Adds an additional layer of
+ indirection for controlling object access,
+  provides a level of abstraction for
+   security or performance optimizations, and 
+   allows for lazy initialization
+    and on-demand object creation.
