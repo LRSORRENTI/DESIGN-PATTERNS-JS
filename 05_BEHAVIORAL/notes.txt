@@ -1,23 +1,140 @@
-Behavioral Design Patterns:
+================================
+Chain of Responsibility Pattern:
+================================
 
-Chain of Responsibility: Allows an object to pass a request along a chain of potential handlers until it is handled.
+Description: Allows an object to pass
+ a request along a chain of potential
+  handlers until it is handled.
 
-Command: Encapsulates a request as an object, allowing clients to parameterize clients with queues, requests, or operations.
+Benefits: Decouples senders and 
+receivers, promotes flexibility 
+in handling requests, and allows 
+for dynamic addition or modification of handlers.
 
-Interpreter: Defines a representation of a grammar and an interpreter to interpret sentences in the language.
+================
+Command Pattern:
+================
 
-Iterator: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+Description: Encapsulates a request 
+as an object, allowing clients to
+ parameterize clients with queues,
+  requests, or operations.
 
-Mediator: Defines an object that encapsulates the communication between a set of objects, promoting loose coupling.
+Benefits: Decouples the sender of a
+ request from the receiver, supports
+  undo/redo functionality, and provides
+   extensibility in command composition.
 
-Memento: Captures and restores an object's internal state.
+====================
+Interpreter Pattern:
+====================
 
-Observer: Defines a one-to-many dependency between objects, where changes in one object notify and update others automatically.
+Description: Defines a representation
+ of a grammar and an interpreter
+  to interpret sentences in the language.
 
-State: Allows an object to alter its behavior when its internal state changes.
+Benefits: Enables the creation of a 
+language or domain-specific expressions, 
+facilitates extensibility in language
+ interpretation, and supports complex
+  rule-based systems.
 
-Strategy: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+=================
+Iterator Pattern:
+=================
 
-Template Method: Defines the skeleton of an algorithm in a base class, allowing subclasses to redefine certain steps.
+Description: Provides a way to access 
+the elements of an aggregate object sequentially
+ without exposing its underlying representation.
 
-Visitor: Separates an algorithm from the object structure on which it operates, allowing new operations to be added without modifying the objects.
+Benefits: Simplifies the traversal of
+ collections, supports multiple traversal
+  algorithms, and promotes the principle 
+  of encapsulation.
+
+=================
+Mediator Pattern:
+=================
+
+Description: Defines an object that
+ encapsulates the communication between 
+ a set of objects, promoting loose coupling.
+
+Benefits: Reduces direct dependencies 
+between objects, simplifies object
+ interactions, and enhances maintainability
+  by centralizing communication logic.
+
+================
+Memento Pattern:
+================
+
+Description: Captures and restores an
+ object's internal state.
+
+Benefits: Allows an object to be restored
+ to a previous state, provides undo/redo
+  functionality, and ensures encapsulation
+   of state storage.
+
+=================
+Observer Pattern:
+=================
+
+Description: Defines a one-to-many dependency 
+between objects, where changes in one object
+ notify and update others automatically.
+
+Benefits: Promotes loose coupling between 
+objects, enables event-driven systems, and 
+facilitates real-time communication and 
+synchronization.
+
+==============
+State Pattern:
+==============
+
+Description: Allows an object to alter
+ its behavior when its internal state changes.
+
+Benefits: Encapsulates state-specific
+ behavior, simplifies conditional logic,
+  and promotes the principle of open-closed design.
+
+=================
+Strategy Pattern:
+=================
+
+Description: Defines a family of algorithms,
+ encapsulates each one, and makes them
+  interchangeable.
+
+Benefits: Enables runtime algorithm selection,
+ promotes code reuse and flexibility,
+  and allows for easy addition of new strategies.
+
+========================
+Template Method Pattern:
+========================
+
+Description: Defines the skeleton 
+of an algorithm in a base class, 
+allowing subclasses to redefine certain steps.
+
+Benefits: Provides a reusable algorithm 
+framework, allows customization of specific
+ steps, and promotes code reuse and extensibility.
+
+================
+Visitor Pattern:
+================
+
+Description: Separates an algorithm 
+from the object structure on which it 
+operates, allowing new operations to be 
+added without modifying the objects.
+
+Benefits: Enables adding new operations
+ without modifying existing classes, 
+ promotes extensibility, and avoids violating
+  the open-closed principle.

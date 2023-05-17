@@ -1,0 +1,114 @@
+==================
+Singleton Pattern:
+==================
+
+Function: Ensures a class has only
+ one instance and provides a global 
+ point of access to it.
+
+Benefits: Controls object creation,
+ promotes encapsulation, and allows 
+ lazy initialization.
+
+=======================
+Factory Method Pattern:
+=======================
+
+Function: Defines an interface
+ for creating objects but lets 
+ subclasses decide which class to instantiate.
+
+Benefits: Encapsulates object 
+creation logic, promotes loose 
+coupling, and allows easy extension
+ of object creation.
+
+=========================
+Abstract Factory Pattern:
+=========================
+
+Function: Provides an interface
+ for creating families of
+  related or dependent objects
+   without specifying their 
+   concrete classes.
+
+Benefits: Encapsulates 
+object creation, promotes 
+loose coupling, and supports
+ the creation of families of related objects.
+
+================
+Builder Pattern:
+================
+
+Function: Separates the constructio
+ of complex objects from their representation,
+  allowing the same construction process
+   to create different representations.
+
+Benefits: Encapsulates object construction,
+ provides control over the construction 
+ process, and supports the creation
+  of complex objects step-by-step.
+
+==================
+Prototype Pattern:
+==================
+
+Function: Creates new objects by cloning
+ existing ones and customizing them as needed.
+
+Benefits: Avoids subclassing, allows
+ dynamic object creation, and provides
+  an alternative to subclassing when
+   dealing with complex objects.
+
+====================
+Object Pool Pattern:
+====================
+
+Function: Maintains a pool of reusable
+ objects that can be borrowed and 
+ returned as needed.
+
+Benefits: Improves performance 
+by reusing objects, manages resource
+ allocation, and provides fine-grained
+  control over object creation and destruction.
+
+============================
+Lazy Initialization Pattern:
+============================
+
+Function: Delays the creation of 
+an object until it is actually needed.
+
+Benefits: Improves performance by 
+avoiding unnecessary object creation,
+ conserves resources, and supports
+  on-demand object creation.
+
+=============================
+Dependency Injection Pattern:
+=============================
+
+Function: Injects the dependencies
+ of an object instead of having the
+  object create or find its dependencies.
+
+Benefits: Promotes loose coupling, 
+enhances testability, and simplifies 
+the modification of dependencies.
+
+=======================
+Simple Factory Pattern:
+=======================
+
+Function: Encapsulates object creation 
+by providing a centralized factory method
+ to create instances of different classes.
+
+Benefits: Provides a centralized 
+creation mechanism, hides the object 
+creation logic, and promotes loose coupling.
