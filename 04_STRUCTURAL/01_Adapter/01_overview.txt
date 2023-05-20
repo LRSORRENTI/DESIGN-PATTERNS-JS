@@ -1,0 +1,19 @@
+===============
+ADAPTER PATTERN
+===============
+
+The adapter design pattern allows for different 
+classes to be made with different interfaces 
+work together, without changing their source code 
+
+Real world example: 
+
+If we're traveling from the USA to Europe, 
+if we want to charge our phone, and devices, we 
+need an adapter for our prongs, in the EU they use 
+different electrical outlets
+
+In this example, our adapter must implement the 
+EU plug, and expose the USA prongs to be used 
+
+Let's look at a TypeScript example
