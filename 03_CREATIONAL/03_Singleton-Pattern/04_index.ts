@@ -7,3 +7,10 @@ logFirstImplementation()
 logSecondImplementation()
 
 export default ""
+
+// 0 Logs
+// Fancy: First file (firstUse.ts)
+// 1 Logs
+// 1 Logs
+// Fancy: Secomd file (secondUse.ts)
+// 2 Logs

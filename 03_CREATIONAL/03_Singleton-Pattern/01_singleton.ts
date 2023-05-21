@@ -134,6 +134,8 @@ to singleton:
 
 
  class FancyLogger {
+    static instance: any;
+     logs: any[];
 
     constructor(){
         // To do this we can use a static 
