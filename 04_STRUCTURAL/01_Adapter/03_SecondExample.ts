@@ -61,15 +61,17 @@ In the Java language, this:
 
 Arrays.asList(array)
 
-The Adapter Pattern is a design p
-attern that allows objects with 
+The Adapter Pattern is a design pattern
+ that allows objects with 
 incompatible interfaces to work 
 together by providing a common interface. 
+
 In the case of Arrays.asList(array), 
 the Arrays class provides a static
  method asList() that takes an array 
- and returns a List. This allows you 
- to treat an array as a List, 
+ and returns a List. 
+ 
+ This allows you to treat an array as a List, 
  even though they have different interfaces.
 
 The asList() method acts as an adapter 
@@ -120,14 +122,15 @@ This creates a new ArrayList object with
                     */
 
 /*
-Real world example would be health insurance, there 
+A real world example would be health insurance, there 
 are different insurance providers, and every 
 one of them have forms for medical claims, however
 every one of those forms for each of the companies 
-will not be identical
+will not be identical, many of them are unique 
+to each specific company
 
-But the insurance office in a given hospital will 
-act as the adapter pattern, there are many 
+But the insurance office itself in a given hospital will 
+act as the adapter pattern. There are many 
 insurance providers, and the insurance office will 
 adapt the paperwork for each respecitve insurance 
 carrier, the content of the claims will be similar, 
