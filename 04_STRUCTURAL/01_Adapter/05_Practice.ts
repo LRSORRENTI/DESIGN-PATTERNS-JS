@@ -57,3 +57,18 @@ function area(rectangle)
 // be used in area(), the adapter will need 
 // width and height properties 
 
+class SquareToRectangleAdapter extends Square{
+    // we need to adapt Square in here, to 
+    // adapt a Sqaure object to behave like 
+    constructor(square) {
+        super(square.side); 
+        // Call the parent class
+        // constructor with the side 
+        //length of the square
+    
+        // Add the necessary properties to simulate a rectangle
+        this._width = square.side;
+        this._height = square.side;
+      }
+}
+
