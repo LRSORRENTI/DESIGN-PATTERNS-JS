@@ -1,0 +1,79 @@
+================================
+QUICK NOTE ABOUT ADAPTER CACHING
+================================
+
+In the context of adapter patterns, 
+"adapter caching" refers to a technique 
+where the adapter stores the results of
+expensive or frequently performed
+operations for later use. 
+  
+This caching mechanism can help 
+improve performance by avoiding
+redundant computations.
+
+Let's break it down with an example. 
+Suppose you have a legacy system
+that provides weather information 
+in Celsius, but your client code 
+requires the weather information
+in Fahrenheit. 
+  
+You create an adapter that converts
+the Celsius temperature to 
+Fahrenheit for the client code.
+
+Now, let's say the client code 
+frequently requests weather
+information for the same location
+and you notice that the conversion 
+from Celsius to Fahrenheit is a
+computationally expensive operation.
+   
+ In this scenario, you can introduce
+ caching within the adapter.
+
+=================================
+Here's how it can be implemented:
+=================================
+
+1. When the adapter receives a request 
+for weather information in Fahrenheit 
+for a specific location, it first checks 
+\if the conversion for that location is 
+already cached.
+
+2. If the conversion is cached,
+ the adapter retrieves the result 
+ from the cache and returns it to 
+ the client code without performing 
+ the conversion again.
+
+3. If the conversion is not cached,
+the adapter performs the Celsius to
+Fahrenheit conversion, stores the
+result in the cache for future use,
+and then returns the converted value 
+to the client code.
+
+By caching the results, 
+subsequent requests for the same 
+location can be served directly
+from the cache, eliminating the
+need for repetitive computations 
+and improving the overall
+performance of the system.
+
+It's worth noting that caching in 
+the adapter pattern is not a
+mandatory feature. It depends
+on the specific requirements 
+and performance considerations
+of your application. 
+   
+The decision to implement caching 
+within the adapter would be based
+on factors such as the frequency of requests,
+the cost of the operation, and the 
+expected benefits 
+in terms of performance optimization.
