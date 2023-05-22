@@ -37,8 +37,23 @@ function area(rectangle)
 
 // What is the problem we have to solve here? 
 
+// We need to implement a Square to Rect class that 
+// utilizes the adapter pattern, this will adapt 
+// a square object to be used as an argument 
+// in the calculate area function
+
 // What is the existing exercise code, what is it 
 // doing?
 
+// We have a class of Square that constructs an 
+// object and takes in a side length, and we have 
+// a function to calculate the area of a rectangle
+
 // What's the end goal? 
+
+// We need to adapt this square class, so it can 
+// take in a Square object as an input, and 
+// adapt it to behave like a rectangle so it 
+// be used in area(), the adapter will need 
+// width and height properties 
 
