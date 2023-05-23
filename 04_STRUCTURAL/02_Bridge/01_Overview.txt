@@ -1,0 +1,49 @@
+==============
+BRIDGE PATTERN
+==============
+
+The bridge design pattern is a structural 
+pattern, it's main purpose is to decouple 
+an abstraction from it's implementation
+
+This allows for independent variation, and promotes
+coupling between classes by separating the interface 
+and implementation into separate hierarchies. 
+
+===========
+ABSTRACTION
+===========
+
+This pattern represents the high level 
+interface or abstraction that clients interact 
+with.
+
+It defines the abstraction's methods and maintains 
+a reference to the implementation object.
+
+===================
+REFINED ABSTRACTION
+===================
+
+This pattern also can extend the abstraction and 
+provide addtional functionality and specialization
+
+==============
+IMPLEMENTATION
+==============
+
+This pattern also represents the low-level implementation
+classes, it defines the methods actually implemented by 
+the concrete classes 
+
+=======================
+CONCRETE IMPLEMENTATION
+=======================
+
+This pattern also specifies the exact implementation
+of the methods defined in the implementation interface
+
+=============
+WHY IT'S USED
+=============
+
