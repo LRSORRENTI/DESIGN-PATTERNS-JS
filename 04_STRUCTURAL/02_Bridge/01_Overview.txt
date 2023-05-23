@@ -1,0 +1,91 @@
+==============
+BRIDGE PATTERN
+==============
+
+The bridge design pattern is a structural 
+pattern, it's main purpose is to decouple 
+an abstraction from it's implementation
+
+This allows for independent variation, and promotes
+coupling between classes by separating the interface 
+and implementation into separate hierarchies. 
+
+===========
+ABSTRACTION
+===========
+
+This pattern represents the high level 
+interface or abstraction that clients interact 
+with.
+
+It defines the abstraction's methods and maintains 
+a reference to the implementation object.
+
+===================
+REFINED ABSTRACTION
+===================
+
+This pattern also can extend the abstraction and 
+provide addtional functionality and specialization
+
+==============
+IMPLEMENTATION
+==============
+
+This pattern also represents the low-level implementation
+classes, it defines the methods actually implemented by 
+the concrete classes 
+
+=======================
+CONCRETE IMPLEMENTATION
+=======================
+
+This pattern also specifies the exact implementation
+of the methods defined in the implementation interface
+
+=============
+WHY IT'S USED
+=============
+
+This pattern enables the abstraction and implementation
+to evolve independently, providing improved flexibility
+in selecting and changing implementation at runtime without 
+affecting client side code, it's extremely useful in 
+scenarios where multiple dimensions of variation are 
+present, this prevents the exponential increase in 
+required subclasses 
+
+==========================
+PROS OF THE BRIDGE PATTERN
+==========================
+
+- Decouples the abstraction from its
+  implementation, allowing them to 
+  vary independently.
+
+- Enhances flexibility by allowing new
+ abstractions and implementations to be
+  added independently.
+
+- Improves code maintainability and extensibility.
+ 
+- Promotes code reusability by
+ providing a clear separation between
+  the abstraction and implementation hierarchies.
+
+- Supports runtime selection of
+ implementations, providing dynamic behavior.
+
+======================
+CONS OF BRIDGE PATTERN
+======================
+
+- Increases the complexity of the
+ codebase due to the introduction 
+ of additional abstraction and 
+ implementation hierarchies.
+
+- Requires careful design and 
+understanding of the system to
+ identify the proper abstractions
+  and implementations.

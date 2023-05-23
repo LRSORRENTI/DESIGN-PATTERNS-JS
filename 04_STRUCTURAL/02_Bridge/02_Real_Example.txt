@@ -1,0 +1,90 @@
+============
+REAL EXAMPLE
+============
+
+In software development, when dealing
+with variations or options that can
+be combined in multiple ways, the number
+of possible combinations can grow rapidly.
+This phenomenon is known as the 
+"combinatorial explosion."
+
+It refers to the exponential 
+increase in the number of subclasses
+required to represent all the possible
+combinations of options.
+
+To illustrate this, let's consider 
+an example without using the Bridge pattern. 
+
+Suppose we are developing a GUI toolkit
+that supports different platforms 
+(Windows, macOS, Linux) and various
+GUI elements (buttons, text boxes, checkboxes). 
+  
+If we were to represent each combination 
+of platform and GUI element using direct 
+subclasses, the number of classes would 
+grow rapidly:
+
+WindowsButton
+WindowsTextBox
+WindowsCheckbox
+MacOSButton
+MacOSTextBox
+MacOSCheckbox
+LinuxButton
+LinuxTextBox
+LinuxCheckbox
+
+As the number of platforms and GUI 
+elements increases, the number of 
+subclasses needed grows exponentially. 
+
+This leads to a significant increase
+in code complexity and maintenance effort.
+
+However, by applying the Bridge pattern,
+we can avoid this combinatorial explosion 
+of subclasses. Instead of representing
+each combination as a separate class, 
+we can define separate hierarchies 
+for the platform-specific code (implementation)
+and the GUI elements (abstraction).
+  
+This allows us to have a linear number of
+classes instead of an exponential number:
+
+Button
+TextBox
+Checkbox
+WindowsImplementation
+MacOSImplementation
+LinuxImplementation
+
+The Bridge pattern decouples the 
+GUI elements from the platforms 
+and provides a way to combine
+them dynamically. The abstraction
+hierarchy (e.g., Button, TextBox)
+maintains a reference to an implementation
+object (e.g., WindowsImplementation) that
+handles the platform-specific details.
+ 
+This way, we can dynamically select
+the implementation at runtime without
+the need for a dedicated subclass
+for each combination.
+
+By using the Bridge pattern, we achieve 
+a more scalable and maintainable design.
+We can add new platforms or GUI elements 
+without the need to create additional
+subclasses for every combination,
+thus avoiding the combinatorial explosion.
+
+The Bridge pattern helps to address
+the combinatorial explosion problem
+by separating orthogonal variations into
+separate hierarchies, allowing for more
+manageable and flexible code structures.
